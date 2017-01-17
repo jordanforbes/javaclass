@@ -20,3 +20,11 @@ let person = {
         return `Hi my name is ${this.firstName} ${this.lastName}`;
     }
 };
+
+let person = {
+	firstName:`Jordan`,
+	lasName: `Forbes`,
+	sayName() {
+		return `Hi my name is ${person.firstName} ${person.lastName}`;
+    }
+};
